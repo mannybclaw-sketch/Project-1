@@ -1,0 +1,343 @@
+/* ============================================
+   PROJECT 1 — AI-GENERATED NEWS SYNTHESIS
+   Modern, dark, silver/chrome aesthetic
+   ============================================ */
+
+/* === ROOT VARIABLES === */
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-card: #161616;
+  --bg-card-hover: #1c1c1c;
+  --text-primary: #e8e8e8;
+  --text-secondary: #999999;
+  --text-muted: #666666;
+  --accent-silver: #c0c0c0;
+  --accent-chrome: #d4d4d4;
+  --gradient-silver: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-chrome: linear-gradient(135deg, #c0c0c0 0%, #888888 50%, #c0c0c0 100%);
+  --gradient-subtle: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  --border-color: #2a2a2a;
+  --border-accent: #333333;
+  --left-color: #4a9eff;
+  --right-color: #ff4a4a;
+  --center-color: #c0c0c0;
+  --synthesis-color: #a855f7;
+  --overlap-color: #22c55e;
+}
+
+/* === GLOBAL === */
+body {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* === HEADER === */
+.bg-black {
+  background: var(--bg-primary) !important;
+  border-bottom: 1px solid var(--border-color);
+}
+
+header, .site-header {
+  background: var(--bg-primary) !important;
+}
+
+/* Site title */
+header .f1, header .f2, header .f-headline {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  background: var(--gradient-chrome);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtitle / tagline */
+header .f5, header .f6 {
+  color: var(--text-muted) !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.75rem !important;
+}
+
+/* Nav links */
+nav a, .site-nav a {
+  color: var(--text-secondary) !important;
+  text-decoration: none !important;
+  font-weight: 400;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+  padding: 0.5rem 0;
+}
+
+nav a:hover, .site-nav a:hover {
+  color: var(--text-primary) !important;
+}
+
+/* === MAIN CONTENT AREA === */
+main {
+  background: var(--bg-primary) !important;
+}
+
+/* === ARTICLE CARDS (Homepage) === */
+.post-card, article.bt, .bt {
+  border-top-color: var(--border-color) !important;
+}
+
+article {
+  background: transparent !important;
+}
+
+/* Article titles on listing */
+.nested-list-reset a,
+.f3 a, .f4 a, .f5 a,
+article a {
+  color: var(--text-primary) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+article a:hover,
+.nested-list-reset a:hover {
+  color: var(--accent-chrome) !important;
+}
+
+/* Article summary text */
+.lh-copy, .nested-copy-line-height p {
+  color: var(--text-secondary) !important;
+  line-height: 1.7 !important;
+}
+
+/* Date and meta */
+time, .f6, .silver {
+  color: var(--text-muted) !important;
+}
+
+/* === SINGLE ARTICLE PAGE === */
+.article-content, .nested-copy-line-height {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+article h1 {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  color: var(--text-primary) !important;
+  line-height: 1.2 !important;
+}
+
+article h2 {
+  color: var(--accent-chrome) !important;
+  font-weight: 600 !important;
+  margin-top: 2.5rem !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+article h3 {
+  color: var(--text-secondary) !important;
+  font-weight: 500 !important;
+}
+
+article p {
+  color: var(--text-secondary) !important;
+  line-height: 1.8 !important;
+  font-size: 1.05rem;
+}
+
+article strong {
+  color: var(--text-primary) !important;
+}
+
+article a {
+  color: var(--left-color) !important;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(74, 158, 255, 0.3) !important;
+}
+
+article a:hover {
+  text-decoration-color: var(--left-color) !important;
+}
+
+article ul, article ol {
+  color: var(--text-secondary) !important;
+}
+
+article li {
+  margin-bottom: 0.4rem;
+  line-height: 1.7;
+}
+
+article hr {
+  border: none !important;
+  border-top: 1px solid var(--border-color) !important;
+  margin: 2rem 0 !important;
+}
+
+article blockquote {
+  border-left: 3px solid var(--synthesis-color) !important;
+  padding-left: 1.2rem;
+  color: var(--text-muted) !important;
+  font-style: italic;
+}
+
+/* === CATEGORY/TAG SECTION LABELS === */
+
+/* "How the Left Covered It" - Blue accent */
+article h2:nth-of-type(2),
+h2[id*="left"] {
+  border-left: 4px solid var(--left-color);
+  padding-left: 12px;
+  border-bottom: none;
+}
+
+/* "How the Right Covered It" - Red accent */
+article h2:nth-of-type(3),
+h2[id*="right"] {
+  border-left: 4px solid var(--right-color);
+  padding-left: 12px;
+  border-bottom: none;
+}
+
+/* "The Synthesis" / "Overlaps" - Purple accent */
+h2[id*="synthesis"], h2[id*="overlap"] {
+  border-left: 4px solid var(--synthesis-color);
+  padding-left: 12px;
+  border-bottom: none;
+}
+
+/* "Just the Facts" - Green accent */
+h2[id*="facts"] {
+  border-left: 4px solid var(--overlap-color);
+  padding-left: 12px;
+  border-bottom: none;
+}
+
+/* === AI BADGE === */
+.ai-badge {
+  display: inline-block;
+  background: var(--gradient-silver);
+  color: #000;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+/* === FOOTER === */
+footer, .site-footer {
+  background: var(--bg-secondary) !important;
+  border-top: 1px solid var(--border-color) !important;
+  color: var(--text-muted) !important;
+}
+
+footer p {
+  color: var(--text-muted) !important;
+}
+
+footer strong {
+  color: var(--text-secondary) !important;
+}
+
+/* === HERO / COVER IMAGE AREA === */
+.cover-image, .featured-image,
+.vh-75, .vh-50 {
+  background: var(--gradient-subtle) !important;
+}
+
+/* Override Ananke's default background colors */
+.bg-near-white {
+  background-color: var(--bg-primary) !important;
+}
+
+.bg-light-gray {
+  background-color: var(--bg-secondary) !important;
+}
+
+.bg-white {
+  background-color: var(--bg-card) !important;
+}
+
+.white {
+  color: var(--text-primary) !important;
+}
+
+.dark-gray {
+  color: var(--text-secondary) !important;
+}
+
+.mid-gray {
+  color: var(--text-muted) !important;
+}
+
+.black {
+  color: var(--text-primary) !important;
+}
+
+/* === HOMEPAGE HERO === */
+.ph3.ph4-ns {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+/* === READING TIME & TAGS === */
+.category-tag {
+  display: inline-block;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 4px 10px;
+  border-radius: 2px;
+  border: 1px solid var(--border-color);
+  margin-right: 6px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  article h1 {
+    font-size: 1.6rem !important;
+  }
+  
+  article h2 {
+    font-size: 1.2rem !important;
+  }
+  
+  article p {
+    font-size: 0.95rem;
+  }
+}
+
+/* === SCROLLBAR (Webkit) === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-accent);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* === SELECTION === */
+::selection {
+  background: rgba(168, 85, 247, 0.3);
+  color: var(--text-primary);
+}

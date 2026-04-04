@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Project 1 — Balanced News Synthesis</title>
+    <title>Posts on Project 1</title>
     <link>https://project-1-gjk.pages.dev/posts/</link>
-    <description>Recent content in Posts on Project 1 — Balanced News Synthesis</description>
+    <description>Recent content in Posts on Project 1</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://project-1-gjk.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />

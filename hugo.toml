@@ -1,21 +1,17 @@
 baseURL = "https://project-1-gjk.pages.dev/"
 languageCode = "en-us"
-title = "Project 1 — Balanced News Synthesis"
+title = "Project 1"
 theme = "ananke"
 
 [params]
-  description = "Synthesizing left and right news sources for a balanced perspective on global events."
+  description = "AI-powered news synthesis. Left. Right. Center. You decide."
   featured_image = ""
   site_logo = ""
   text_color = ""
-  author = "Project 1 News"
+  author = "Project 1"
   favicon = ""
   show_reading_time = true
-  ananke_socials = ""
-
-[params.adsense]
-  client = ""  # Add your AdSense client ID later
-  slot = ""
+  custom_css = ["css/custom.css"]
 
 [markup]
   [markup.goldmark]
@@ -29,7 +25,6 @@ theme = "ananke"
 [taxonomies]
   tag = "tags"
   category = "categories"
-  region = "regions"
 
 [menu]
   [[menu.main]]
@@ -37,16 +32,16 @@ theme = "ananke"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "World"
-    url = "/categories/world/"
+    name = "Global Politics"
+    url = "/categories/global-politics/"
     weight = 2
   [[menu.main]]
-    name = "Politics"
-    url = "/categories/politics/"
+    name = "US Politics"
+    url = "/categories/us-politics/"
     weight = 3
   [[menu.main]]
-    name = "Economy"
-    url = "/categories/economy/"
+    name = "Economics"
+    url = "/categories/economics/"
     weight = 4
   [[menu.main]]
     name = "Tech"

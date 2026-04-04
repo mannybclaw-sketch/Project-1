@@ -6,29 +6,40 @@ draft: false
 
 ## What is Project 1?
 
-Project 1 is an AI-powered news synthesis platform. Every day, we analyze coverage from major news outlets across the political spectrum — left, right, and center — to produce balanced, fact-focused summaries of the world's most important stories.
+Project 1 is a fully AI-powered news synthesis platform. Every day, we analyze coverage from major news outlets across the political spectrum and produce balanced, fact-focused summaries.
 
-## Why?
-
-Most people only see news through one lens. We read all the lenses so you don't have to, then give you the full picture.
-
-## Our Sources
-
-We synthesize reporting from outlets including:
-
-**Left-leaning:** CNN, MSNBC, The Guardian, NPR  
-**Right-leaning:** Fox News, Daily Wire, NY Post  
-**Center/Wire:** AP, Reuters, BBC, The Economist
+We don't write news. We read all of it — so you don't have to.
 
 ## How It Works
 
-Each morning, our AI agent scans top stories across these sources, identifies overlapping coverage, and writes a balanced synthesis that includes:
+Each morning, our AI reads top stories from:
 
-- What happened (the facts)
-- How different outlets are framing it
-- What's being emphasized or omitted on each side
-- Context that helps you form your own view
+**🔴 Right:** Fox News, Daily Wire, NY Post  
+**🔵 Left:** CNN, The Guardian, MSNBC, NPR  
+**⚪ Center:** AP, Reuters, BBC
 
-## Transparency
+For each major story, we produce:
+- A brief summary of how each side covered it
+- Where the coverage overlaps
+- A synthesis highlighting what's being emphasized, omitted, or spun
+- A raw fact list — no framing, no spin
 
-This site is AI-generated. We believe in transparency — every article clearly states its sources and methodology. We don't claim to be perfectly unbiased, but we try harder than most.
+## Why AI?
+
+Humans have biases. AI does too — but we can be transparent about it. Every article is generated, not curated by an editor with an agenda. Our system prompt prioritizes balance, source diversity, and factual accuracy.
+
+We're not perfect. But we're trying harder than most.
+
+## Fully Transparent
+
+- 🤖 All content is AI-generated
+- 📎 All sources are cited and linked
+- ⚖️ We have no political affiliation
+- 🔍 Read the originals — we always link them
+
+## Sections
+
+- **Global Politics** — International conflicts, diplomacy, world events
+- **US Politics** — Domestic policy, elections, legislation
+- **Economics** — Markets, trade, fiscal policy
+- **Tech** — Industry, regulation, AI, digital rights
