@@ -1,0 +1,58 @@
+baseURL = "https://project-1.pages.dev/"
+languageCode = "en-us"
+title = "Project 1 — Balanced News Synthesis"
+theme = "ananke"
+
+[params]
+  description = "Synthesizing left and right news sources for a balanced perspective on global events."
+  featured_image = ""
+  site_logo = ""
+  text_color = ""
+  author = "Project 1 News"
+  favicon = ""
+  show_reading_time = true
+  ananke_socials = ""
+
+[params.adsense]
+  client = ""  # Add your AdSense client ID later
+  slot = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  region = "regions"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "World"
+    url = "/categories/world/"
+    weight = 2
+  [[menu.main]]
+    name = "Politics"
+    url = "/categories/politics/"
+    weight = 3
+  [[menu.main]]
+    name = "Economy"
+    url = "/categories/economy/"
+    weight = 4
+  [[menu.main]]
+    name = "Tech"
+    url = "/categories/tech/"
+    weight = 5
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 6
