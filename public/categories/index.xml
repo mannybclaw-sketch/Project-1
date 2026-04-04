@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Project 1 — Balanced News Synthesis</title>
-    <link>https://project-1.pages.dev/categories/</link>
+    <link>https://project-1-gjk.pages.dev/categories/</link>
     <description>Recent content in Categories on Project 1 — Balanced News Synthesis</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://project-1.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://project-1-gjk.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
