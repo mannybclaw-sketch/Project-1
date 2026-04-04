@@ -1,6 +1,6 @@
 ---
 title: "Trump Sets 48-Hour Hormuz Deadline as Search for Downed US Pilot Continues"
-date: 2026-04-05T08:00:00+08:00
+date: 2026-04-04T08:00:00+08:00
 draft: false
 categories: ["Global Politics"]
 tags: ["iran", "united-states", "strait-of-hormuz", "middle-east"]
